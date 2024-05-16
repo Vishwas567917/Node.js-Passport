@@ -36,17 +36,21 @@ Replace YOUR_USERNAME_HERE, YOUR_PASSWORD_HERE, and CLUSTER_NAME_HERE in config/
 npm start
 5. Visit http://localhost:5000 in your web browser.
 
-*Usage*
+Usage
 1 Register a new account by visiting /users/register.
 2 Login with your registered credentials at /users/login.
 3 Access the protected dashboard at /dashboard.
 4 Logout by clicking the "Logout" button on the dashboard.
-*Folder Structure*
+
+
+Folder Structure
 1 config: Contains configuration files for Passport authentication and MongoDB connection.
 2 models: Defines the User model schema for MongoDB.
 3 public: Contains static assets such as CSS files and client-side JavaScript.
 4 routes: Defines the application routes for handling HTTP requests.
 5 views: Contains EJS templates for rendering HTML pages.
 6 app.js: Main entry point of the application.
-*Credits*
+
+
+Credits
 This project was built based on tutorials and guides available online for Node.js authentication with Passport.js.
